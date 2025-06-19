@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body {
+    background: #2c3e50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+.main {
+    background: #2c3e50;
+    border-radius: 10px;
+    padding: 10px;
+    width: 600px;
+    text-align: justify;
+    box-shadow: 0 10px 25px rgb(0, 0, 0, 0.3);
+}
+.Dimg {
+    width: 60% ;
+    height: 50%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    margin: 20px auto;
+    margin-top: 10px;
+}
+.name {
+    font-size: larger;
+    color: aliceblue;
+    padding: 10px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
+    margin-bottom: 5px;
+}
+.main p {
+    font-style: normal;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: justify;
+    color: rgba(169, 169, 169, 0.384);
+    margin-bottom: 20px;
+    margin-left: 8px;  
+    font-size: large;  
+}
+.notification {
+    font-size: large;
+    padding: 10px;
+    padding-bottom: 10px;
+    margin-left: 6px;
+    margin-bottom: 10px;
+justify-content: space-between;}
+.stat {
+color: aqua;
+border-bottom: 1px solid rgba(169, 169, 169, 0.1) ;
+padding: 19px 0;
+
+justify-content: space-between;
+}
+.notification h4 {
+    color:rgba(169, 169, 169, 0.26);
+display: inline-block;
+justify-content: space-between;
+}
+.icon {
+    padding-right: 5px;
+}
+.clock
+{
+    padding-right: 5px;
+}
+.creator{
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border: 2px solid white;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    
+}
+.owner{
+    
+}
+#owner {
+    color: rgba(169, 169, 169, 0.26);
+
+    margin-left: 15px;
+    
+}
+#owner span{
+    color: antiquewhite;
+}
