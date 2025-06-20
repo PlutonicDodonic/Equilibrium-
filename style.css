@@ -10,18 +10,19 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    margin: 0;
 
 }
 .main {
     background: #2c3e50;
     border-radius: 10px;
-    padding: 10px;
-    width: 600px;
+    padding: 20px;
+    width: 400px;
     text-align: justify;
     box-shadow: 0 10px 25px rgb(0, 0, 0, 0.3);
 }
 .Dimg {
-    width: 60% ;
+    width: 100% ;
     height: 50%;
     object-fit: cover;
     border-radius: 10px;
@@ -29,66 +30,81 @@ body {
     margin: 20px auto;
     margin-top: 10px;
 }
-.name {
+.main strong {
     font-size: larger;
     color: aliceblue;
     padding: 10px; 
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;   
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
-.main p {
+.message {
     font-style: normal;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: justify;
-    color: rgba(169, 169, 169, 0.384);
-    margin-bottom: 20px;
+    color: rgba(169, 169, 169, 0.6);
+    margin-bottom: 30px;
     margin-left: 8px;  
-    font-size: large;  
+    font-size: large; 
+    padding-top: 10px; 
+    margin-top: 10px;
 }
 .notification {
     font-size: large;
-    padding: 10px;
-    padding-bottom: 10px;
-    margin-left: 6px;
-    margin-bottom: 10px;
-justify-content: space-between;}
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   border-bottom: 1px solid rgba(169, 169, 169, 0.1); 
+padding-bottom: 20px;
+}
 .stat {
 color: aqua;
-border-bottom: 1px solid rgba(169, 169, 169, 0.1) ;
-padding: 19px 0;
+display: flex;
+align-items: center;
 
-justify-content: space-between;
 }
-.notification h4 {
-    color:rgba(169, 169, 169, 0.26);
-display: inline-block;
-justify-content: space-between;
+
+.icon{
+    padding: 0;
+    margin-right: 4px;
+    margin-left: 8px;
 }
-.icon {
-    padding-right: 5px;
+.clock {
+    color:rgba(169, 169, 169, 0.6);
+display: flex;
+align-items: center;
+}
+.icon-clock {
+    padding: 0;
+    margin-right: 4px;
+    
 }
 .clock
 {
+
     padding-right: 5px;
 }
-.creator{
+.img_creator{
     width: 50px;
     height: 50px;
     margin-left: 10px;
     border: 2px solid white;
     border-radius: 50%;
     margin-bottom: 10px;
+    margin-top: 20px;
     
 }
-.owner{
-    
-}
-#owner {
-    color: rgba(169, 169, 169, 0.26);
 
-    margin-left: 15px;
+
+
+.creator {
+    color: rgba(169, 169, 169, 0.6);
+display: flex;
+align-items: center;
+gap: 10px;
+
     
 }
-#owner span{
+span{
     color: antiquewhite;
+    margin-left: 1px
 }
